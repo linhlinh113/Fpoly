@@ -1,7 +1,7 @@
 package com.poly.servlet;
 
 public class Country {
-	private String id;
+    private String id;
     private String name;
 
     public Country(String id, String name) {

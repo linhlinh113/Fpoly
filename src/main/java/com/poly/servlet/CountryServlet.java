@@ -19,6 +19,6 @@ public class CountryServlet extends HttpServlet {
                 new Country("CN", "China")
         );
         req.setAttribute("countries", list);
-        req.getRequestDispatcher("/select.jsp").forward(req, resp);
+        req.getRequestDispatcher("/views/country.jsp").forward(req, resp);
     }
 }
